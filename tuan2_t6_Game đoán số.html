@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button type="submit" onclick="batdau()"> bat dau </button>
+<script>
+  function batdau() {
+    var c = parseInt(prompt("nhap vao gia tri lon nhat"));
+    var d = parseInt(prompt("nhap vao gia tri nho nhat"));
+    var b =Math.floor(Math.random()*(c-d))+d;
+    document.writeln(b);
+
+    for (var i = 1; i <= 3; i++) {
+      var a = parseInt(prompt("nhap vao 1 so bat ki "));
+      if (a == b) {
+        document.writeln("chuc mung ban da dung");
+      }
+      else {
+        document.writeln("sai roi");
+      }
+    }
+  }
+</script>
+
+</body>
+</html>

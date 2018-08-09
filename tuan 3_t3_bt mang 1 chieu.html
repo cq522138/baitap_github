@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  var arr = new Array(10);
+  var max;
+  for (var i = 0; i < arr.length; i++) {
+    arr[i] = prompt("nhap vao phan tu thu" + i);
+  }
+  for (var i = 0; i <= arr.length; i++) {
+    if (arr[i] >= 10) {
+      document.writeln(arr[i]);
+    }
+
+  }
+//bai 2
+  max=arr[0];
+  for(var j=1;j<=arr.length;j++){
+    if(max<arr[j]){
+      max=arr[j];
+    }
+  }
+  document.writeln(max);
+//bai 3
+  var tong=0;
+  for(var k=1;k<=arr.length;k++){
+    tong=arr[j]+tong;
+  }
+  var tb=tong/10;
+  document.writeln(tb);
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.menu{
+  background: #542670 !important;
+}
+.menu a{
+  color: #f1f1f1; !important;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu{
+  background: rgba(84, 38, 112, 0.7);
+}
+.nav-item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bo {
+  position: relative;
+}
+.con {
+  position: absolute;
+  top: 109px;
+  left: 165px;
+}
